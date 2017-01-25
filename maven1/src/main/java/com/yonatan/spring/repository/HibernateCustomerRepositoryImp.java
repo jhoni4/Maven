@@ -7,7 +7,9 @@ import com.yonatan.spring.model.Customer;
 
 public class HibernateCustomerRepositoryImp implements CustomerRepository {
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.yonatan.spring.repository.CustomerRepository#findAll()
 	 */
 	public List<Customer> findAll() {

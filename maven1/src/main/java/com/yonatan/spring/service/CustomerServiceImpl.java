@@ -9,7 +9,9 @@ import com.yonatan.spring.repository.HibernateCustomerRepositoryImp;
 public class CustomerServiceImpl implements CustomerService {
 	private CustomerRepository customerRepository = new HibernateCustomerRepositoryImp();
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.yonatan.spring.service.CustomerService#findAll()
 	 */
 	@Override

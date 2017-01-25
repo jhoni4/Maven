@@ -1,7 +1,9 @@
 package com.yonatan.spring.model;
 
 public class Customer {
+	
 	private String firstName;
+	
 	private String Lastname;
 
 	public Customer() {
