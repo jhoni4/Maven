@@ -1,1 +1,1 @@
-# Maven
+# Maven test project
