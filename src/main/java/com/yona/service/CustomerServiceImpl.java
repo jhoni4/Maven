@@ -1,12 +1,13 @@
-package com.yonatan.spring.service;
+package com.yona.service;
 
 import java.util.List;
 
-import com.yonatan.spring.model.Customer;
-import com.yonatan.spring.repository.CustomerRepository;
-import com.yonatan.spring.repository.HibernateCustomerRepositoryImp;
+import com.yona.model.Customer;
+import com.yona.repository.CustomerRepository;
+import com.yona.repository.HibernateCustomerRepositoryImp;
 
 public class CustomerServiceImpl implements CustomerService {
+
 	private CustomerRepository customerRepository = new HibernateCustomerRepositoryImp();
 
 	/*

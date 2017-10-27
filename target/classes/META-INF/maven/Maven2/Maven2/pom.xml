@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>maven2</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -21,16 +21,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<sourceDirectory>maven1/src/main/java</sourceDirectory>
-		<testSourceDirectory>maven1/src/test/java</testSourceDirectory>
-		<testResources>
-			<testResource>
-				<directory>maven1/src/test/java</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</testResource>
-		</testResources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

@@ -1,8 +1,8 @@
-package com.yonatan.spring.repository;
+package com.yona.repository;
 
 import java.util.List;
 
-import com.yonatan.spring.model.Customer;
+import com.yona.model.Customer;
 
 public interface CustomerRepository {
 

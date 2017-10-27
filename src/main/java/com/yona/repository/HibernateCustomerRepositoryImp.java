@@ -1,9 +1,9 @@
-package com.yonatan.spring.repository;
+package com.yona.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.yonatan.spring.model.Customer;
+import com.yona.model.Customer;
 
 public class HibernateCustomerRepositoryImp implements CustomerRepository {
 
@@ -16,7 +16,7 @@ public class HibernateCustomerRepositoryImp implements CustomerRepository {
 		List<Customer> customers = new ArrayList();
 		Customer customer = new Customer();
 		customer.setFirstName("Jhon");
-		customer.setLastname("Doe");
+		customer.setLastName("Doe");
 		customers.add(customer);
 		return customers;
 	}

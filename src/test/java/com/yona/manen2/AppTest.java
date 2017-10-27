@@ -1,4 +1,4 @@
-package com.yonatan.spring.maven1;
+package com.yona.manen2;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
