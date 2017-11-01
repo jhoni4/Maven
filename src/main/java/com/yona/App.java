@@ -10,7 +10,6 @@ public class App {
 		CustomerService service = new CustomerServiceImpl();
 		
 		System.out.println(service.findAll().get(0).getFirstName());
-//		
 		System.out.println(service.findAll().get(0).getLastName());
 		System.out.println( "Hello World!" );
 
